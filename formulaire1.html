@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire1.css">
+    <title>Formulaire1</title>
+</head>
+<body>
+    <form action="" method="post" id="form">
+       Prenom <br><br>
+       <input type="text" id="prenom"> <br><br>
+       Nom <br><br>
+       <input type="text" id="nom"> <br><br>
+       Age <br><br>
+       <input type="text" id="age"> <br><br> 
+
+       <select id="list">
+        <option value="Dakar">Dakar</option>
+        <option value="Thiés">Thiés</option>
+        <option value="Saint Louis">Saint Louis</option>
+       </select> <br><br>
+
+       <fieldset>
+           <legend>Situation actuelle</legend>
+           Célibataire<input type="radio" id="celibataire">
+           Marié <input type="radio" id="marie">
+           En couple <input type="radio" id="couple"> 
+       </fieldset> <br><br>
+
+       <fieldset>
+        <legend> Qualité </legend> 
+       Gentil(le)<input type="checkbox" id="gentil">
+       Jovial(e)<input type="checkbox" id="jovial">
+       Ouvert<input type="checkbox" id="ouvert"> 
+       </fieldset> <br><br>
+
+     
+       <button type="submit">Envoyer</button>
+       
+    <div class="erreur" id="erreur"></div>
+
+    </form>
+    
+    <script src="formulaire1.js"></script>
+</body>
+</html>
